@@ -1,11 +1,11 @@
 {
   "name": "devops",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000d\u0000e\u0000r\u0000s\u0000-\u0000h\u0000a\u0000v\u0000e\u0000n\u0000-\u0000l\u0000i\u0000b\u0000r\u0000a\u0000r\u0000y\u0000\r\u0000 \u0000",
+  "description": "\ufffd\ufffd#\u0000 \u0000r\u0000e\u0000a\u0000d\u0000e\u0000r\u0000s\u0000-\u0000h\u0000a\u0000v\u0000e\u0000n\u0000-\u0000l\u0000i\u0000b\u0000r\u0000a\u0000r\u0000y\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/*.html --dist-dir dist"
+    "build": "node init && parcel build src/*.html --dist-dir dist"
   },
   "repository": {
     "type": "git",

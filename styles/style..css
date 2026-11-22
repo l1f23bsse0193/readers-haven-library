@@ -51,3 +51,34 @@ footer {
         margin: 6px 0;
     }
 }
+
+.home-hero {
+    background: #efe0c4;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.home-info,
+.home-links {
+    margin-top: 20px;
+}
+
+.home-links a {
+    display: inline-block;
+    margin: 4px 8px 4px 0;
+    padding: 8px 14px;
+    background: #5a3e2b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .home-hero {
+        padding: 14px;
+    }
+
+    .home-links a {
+        display: block;
+    }
+}
