@@ -1,0 +1,24 @@
+.mem-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.mem-table th,
+.mem-table td {
+    border: 1px solid #d9c9a8;
+    padding: 10px;
+    text-align: left;
+}
+
+.mem-table th {
+    background: #efe0c4;
+}
+
+@media (max-width: 600px) {
+    .mem-table {
+        font-size: 14px;
+        display: block;
+        overflow-x: auto;
+    }
+}
