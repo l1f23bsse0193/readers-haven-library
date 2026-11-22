@@ -51,3 +51,7 @@ footer {
         margin: 6px 0;
     }
 }
+/* ===== SERVICES PAGE ===== */
+.svc-card { background: #fff; padding: 14px 18px; margin-bottom: 14px; border-radius: 8px; border-top: 4px solid #8a5a3c; }
+@media (min-width: 700px) { .svc-card { display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; } }
+@media (max-width: 600px) { .svc-card { padding: 10px; } }
